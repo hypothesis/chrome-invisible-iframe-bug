@@ -18,6 +18,6 @@ extension appears invisible under certain circumstances.
 
 **Actual**: The new frame appears but the content is missing.
 
-Tested in Chrome 62.0.3175.4
+Tested in Chrome 62.0.3175.4 and 62.0.3179.0 on macOS.
 
 
