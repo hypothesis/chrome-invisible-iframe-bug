@@ -20,4 +20,8 @@ extension appears invisible under certain circumstances.
 
 Tested in Chrome 62.0.3175.4 and 62.0.3179.0 on macOS.
 
+## Additional Notes
 
+* Upstream bug report: https://bugs.chromium.org/p/chromium/issues/detail?id=753314 (marked duplicate of https://bugs.chromium.org/p/chromium/issues/detail?id=638375)
+
+* Adding `rel=noopener` to the link in the iframe works around the problem. This is related to consequences of `window.opener` in Chrome. See https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/ for details.
